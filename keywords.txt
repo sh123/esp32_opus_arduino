@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For codec2
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+CODEC2	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+codec2_create	KEYWORD2
+codec2_destroy	KEYWORD2
+codec2_encode	KEYWORD2
+codec2_decode	KEYWORD2
+codec2_samples_per_frame	KEYWORD2
+codec2_bits_per_frame	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+CODEC2_MODE_3200	LITERAL1
+CODEC2_MODE_2400	LITERAL1
+CODEC2_MODE_1600	LITERAL1
+CODEC2_MODE_1400	LITERAL1
+CODEC2_MODE_1300	LITERAL1
+CODEC2_MODE_1200 	LITERAL1
+CODEC2_MODE_700C	LITERAL1
