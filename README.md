@@ -1,4 +1,4 @@
-# ESP32 Codec2 Arduino Library
-This is latest version of Codec2 library packaged for ESP32 Arduino usage.
+# ESP32 Opus Arduino Library
+This is latest version of OPUS library packaged for ESP32 Arduino usage.
 
-For more information about Codec2 visit https://github.com/drowe67/codec2
+For more information about OPUS visit https://opus-codec.org/
