@@ -142,7 +142,7 @@ void audio_task(void *param) {
     int encoded_size = opus_encode(opus_encoder_, opus_samples_, opus_samples_size_, opus_bits_, opus_bits_size_);
     vTaskDelay(1);
     int decoded_size = opus_decode(opus_decoder_, opus_bits_, encoded_size, opus_samples_out_, opus_samples_out_size_, 0);
-    i2s_write(I2S_NUM_0, opus_samples_, sizeof(uint16_t) * decoded_size, &bytes_written, portMAX_DELAY);
+    i2s_write(I2S_NUM_0, opus_samples_out_, sizeof(uint16_t) * decoded_size, &bytes_written, portMAX_DELAY);
     vTaskDelay(1);
   }
 }
