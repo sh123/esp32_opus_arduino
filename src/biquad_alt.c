@@ -32,9 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
  * Can handle slowly varying filter coefficients                        *
  *                                                                      */
 
-#ifdef HAVE_CONFIG_H
 #include "config.h"
-#endif
 
 #include "SigProc_FIX.h"
 

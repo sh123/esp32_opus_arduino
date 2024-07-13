@@ -31,9 +31,7 @@ POSSIBILITY OF SUCH DAMAGE.
 /* Therefore the result is not accurate NLSFs, but the two      */
 /* functions are accurate inverses of each other                */
 
-#ifdef HAVE_CONFIG_H
 #include "config.h"
-#endif
 
 #include "SigProc_FIX.h"
 #include "tables.h"
